@@ -82,7 +82,7 @@ nav{
 	display: block;
 }
 
-.nav > li > input:checked + .popup-button:focus{
+.nav > li > input:checked + .popup-button{
 	border: 1px solid black;
 	display: flex;
 }
