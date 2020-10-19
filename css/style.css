@@ -55,6 +55,8 @@ nav{
 
 .popup-button{
 	cursor: pointer;
+	display: flex;
+	border: 1px solid #fff;
 }
 
 .popup-button::before{
@@ -78,6 +80,11 @@ nav{
 
 .nav > li > input:checked ~ .hidden{
 	display: block;
+}
+
+.nav > li > input:checked + .popup-button:focus{
+	border: 1px solid black;
+	display: flex;
 }
 
 .nav > li > input:checked + .popup-button::before{
